@@ -5,15 +5,18 @@ repo: upptime # The name of this repository
 secrets:
   - CF_ACCESS_CLIENT_ID
   - CF_ACCESS_CLIENT_SECRET
+  - PASSMANAGER
   - GLANCE
 
 sites:
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
   - name: Glance
     url: $GLANCE
+    headers:
+      - "CF-Access-Client-Id: $CF_ACCESS_CLIENT_ID"
+      - "CF-Access-Client-Secret: $CF_ACCESS_CLIENT_SECRET"
+    expectedStatusCodes: [200, 204]
+  - name: Password-Manager
+    url: $PASSMANAGER
     headers:
       - "CF-Access-Client-Id: $CF_ACCESS_CLIENT_ID"
       - "CF-Access-Client-Secret: $CF_ACCESS_CLIENT_SECRET"
