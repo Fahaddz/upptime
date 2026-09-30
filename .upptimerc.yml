@@ -13,7 +13,7 @@ sites:
   - name: Hacker News
     url: https://news.ycombinator.com
   - name: Glance
-    url: $glance
+    url: $GLANCE
     headers:
       - "CF-Access-Client-Id: $CF_ACCESS_CLIENT_ID"
       - "CF-Access-Client-Secret: $CF_ACCESS_CLIENT_SECRET"
