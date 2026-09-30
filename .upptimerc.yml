@@ -3,24 +3,36 @@ owner: Fahaddz # Your GitHub organization or username, where this repository liv
 repo: upptime # The name of this repository
 
 secrets:
+  - UPTIME_WAF_KEY
   - CF_ACCESS_CLIENT_ID
   - CF_ACCESS_CLIENT_SECRET
   - PASSMANAGER
   - GLANCE
+  - XTREMIO
 
 sites:
-  - name: Glance
-    url: $GLANCE
-    headers:
-      - "CF-Access-Client-Id: $CF_ACCESS_CLIENT_ID"
-      - "CF-Access-Client-Secret: $CF_ACCESS_CLIENT_SECRET"
-    expectedStatusCodes: [200, 204]
   - name: Password-Manager
     url: $PASSMANAGER
     headers:
+      - "x-uptime-key: $UPTIME_WAF_KEY"
       - "CF-Access-Client-Id: $CF_ACCESS_CLIENT_ID"
       - "CF-Access-Client-Secret: $CF_ACCESS_CLIENT_SECRET"
     expectedStatusCodes: [200, 204]
+  - name: Glance
+    url: $GLANCE
+    headers:
+      - "x-uptime-key: $UPTIME_WAF_KEY"
+      - "CF-Access-Client-Id: $CF_ACCESS_CLIENT_ID"
+      - "CF-Access-Client-Secret: $CF_ACCESS_CLIENT_SECRET"
+    expectedStatusCodes: [200, 204]
+  - name: xTermio
+    url: $XTREMIO
+    headers:
+      - "x-uptime-key: $UPTIME_WAF_KEY"
+      - "CF-Access-Client-Id: $CF_ACCESS_CLIENT_ID"
+      - "CF-Access-Client-Secret: $CF_ACCESS_CLIENT_SECRET"
+    expectedStatusCodes: [200, 204]
+
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
