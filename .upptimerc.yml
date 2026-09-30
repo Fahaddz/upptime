@@ -25,7 +25,7 @@ sites:
       - "CF-Access-Client-Id: $CF_ACCESS_CLIENT_ID"
       - "CF-Access-Client-Secret: $CF_ACCESS_CLIENT_SECRET"
     expectedStatusCodes: [200, 204]
-  - name: xTermio
+  - name: xTremio
     url: $XTREMIO
     headers:
       - "x-uptime-key: $UPTIME_WAF_KEY"
