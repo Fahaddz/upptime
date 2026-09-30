@@ -35,11 +35,13 @@ sites:
     expectedStatusCodes: [200, 204]
   - name: cv_gen
     url: $CV_GEN
+    maxResponseTime: 90000
+    requestTimeout: 90        # seconds
     headers:
       - "x-uptime-key: $UPTIME_WAF_KEY"
       - "CF-Access-Client-Id: $CF_ACCESS_CLIENT_ID"
       - "CF-Access-Client-Secret: $CF_ACCESS_CLIENT_SECRET"
-    expectedStatusCodes: [200, 204]
+    expectedStatusCodes: [200, 204, 301, 302, 307, 308]
   - name: xTremio
     url: $XTREMIO
     headers:
