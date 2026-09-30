@@ -6,12 +6,20 @@ secrets:
   - UPTIME_WAF_KEY
   - CF_ACCESS_CLIENT_ID
   - CF_ACCESS_CLIENT_SECRET
+  - PROXMOX
   - PASSMANAGER
   - GLANCE
   - XTREMIO
-
+  - CV_GEN
 sites:
-  - name: Password-Manager
+  - name: Proxmox
+    url: $PROXMOX
+    headers:
+      - "x-uptime-key: $UPTIME_WAF_KEY"
+      - "CF-Access-Client-Id: $CF_ACCESS_CLIENT_ID"
+      - "CF-Access-Client-Secret: $CF_ACCESS_CLIENT_SECRET"
+    expectedStatusCodes: [200, 204]
+  - name: PassManager
     url: $PASSMANAGER
     headers:
       - "x-uptime-key: $UPTIME_WAF_KEY"
@@ -20,6 +28,13 @@ sites:
     expectedStatusCodes: [200, 204]
   - name: Glance
     url: $GLANCE
+    headers:
+      - "x-uptime-key: $UPTIME_WAF_KEY"
+      - "CF-Access-Client-Id: $CF_ACCESS_CLIENT_ID"
+      - "CF-Access-Client-Secret: $CF_ACCESS_CLIENT_SECRET"
+    expectedStatusCodes: [200, 204]
+  - name: cv_gen
+    url: $CV_GEN
     headers:
       - "x-uptime-key: $UPTIME_WAF_KEY"
       - "CF-Access-Client-Id: $CF_ACCESS_CLIENT_ID"
