@@ -3,6 +3,9 @@ owner: Fahaddz # Your GitHub organization or username, where this repository liv
 repo: upptime # The name of this repository
 
 secrets:
+  - NOTIFICATION_TELEGRAM
+  - NOTIFICATION_TELEGRAM_BOT_KEY
+  - NOTIFICATION_TELEGRAM_CHAT_ID
   - UPTIME_WAF_KEY
   - CF_ACCESS_CLIENT_ID
   - CF_ACCESS_CLIENT_SECRET
