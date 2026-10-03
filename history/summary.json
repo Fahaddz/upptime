@@ -5,19 +5,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "proxmox",
     "status": "up",
-    "uptime": "98.88%",
+    "uptime": "100.00%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "98.88%",
-    "uptimeMonth": "98.88%",
-    "uptimeYear": "98.88%",
-    "time": 720,
-    "timeDay": 652,
-    "timeWeek": 720,
-    "timeMonth": 720,
-    "timeYear": 720,
-    "dailyMinutesDown": {
-      "2026-09-30": 27
-    }
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 730,
+    "timeDay": 793,
+    "timeWeek": 730,
+    "timeMonth": 730,
+    "timeYear": 730,
+    "dailyMinutesDown": {}
   },
   {
     "name": "PassManager",
@@ -30,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 621,
-    "timeDay": 576,
-    "timeWeek": 621,
-    "timeMonth": 621,
-    "timeYear": 621,
+    "time": 656,
+    "timeDay": 897,
+    "timeWeek": 656,
+    "timeMonth": 656,
+    "timeYear": 656,
     "dailyMinutesDown": {}
   },
   {
@@ -43,19 +41,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "glance",
     "status": "up",
-    "uptime": "98.40%",
+    "uptime": "100.00%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "98.40%",
-    "uptimeMonth": "98.40%",
-    "uptimeYear": "98.40%",
-    "time": 1158,
-    "timeDay": 546,
-    "timeWeek": 1158,
-    "timeMonth": 1158,
-    "timeYear": 1158,
-    "dailyMinutesDown": {
-      "2026-09-30": 40
-    }
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 1133,
+    "timeDay": 831,
+    "timeWeek": 1133,
+    "timeMonth": 1133,
+    "timeYear": 1133,
+    "dailyMinutesDown": {}
   },
   {
     "name": "cv_gen",
@@ -63,19 +59,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "cv-gen",
     "status": "up",
-    "uptime": "98.89%",
+    "uptime": "100.00%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "98.89%",
-    "uptimeMonth": "98.89%",
-    "uptimeYear": "98.89%",
-    "time": 4715,
-    "timeDay": 13359,
-    "timeWeek": 4715,
-    "timeMonth": 4715,
-    "timeYear": 4715,
-    "dailyMinutesDown": {
-      "2026-09-30": 27
-    }
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 4083,
+    "timeDay": 295,
+    "timeWeek": 4083,
+    "timeMonth": 4083,
+    "timeYear": 4083,
+    "dailyMinutesDown": {}
   },
   {
     "name": "xTremio",
@@ -88,11 +82,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 688,
-    "timeDay": 789,
-    "timeWeek": 688,
-    "timeMonth": 688,
-    "timeYear": 688,
+    "time": 644,
+    "timeDay": 294,
+    "timeWeek": 644,
+    "timeMonth": 644,
+    "timeYear": 644,
     "dailyMinutesDown": {}
   }
 ]
