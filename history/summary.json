@@ -4,18 +4,20 @@
     "url": "$PROXMOX",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "proxmox",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 693,
-    "timeDay": 426,
-    "timeWeek": 637,
-    "timeMonth": 693,
-    "timeYear": 693,
-    "dailyMinutesDown": {}
+    "time": 668,
+    "timeDay": 234,
+    "timeWeek": 563,
+    "timeMonth": 668,
+    "timeYear": 668,
+    "dailyMinutesDown": {
+      "2026-10-22": 0
+    }
   },
   {
     "name": "PassManager",
@@ -40,18 +42,20 @@
     "url": "$GLANCE",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "glance",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 826,
-    "timeDay": 439,
-    "timeWeek": 557,
-    "timeMonth": 826,
-    "timeYear": 826,
-    "dailyMinutesDown": {}
+    "time": 802,
+    "timeDay": 244,
+    "timeWeek": 494,
+    "timeMonth": 802,
+    "timeYear": 802,
+    "dailyMinutesDown": {
+      "2026-10-22": 0
+    }
   },
   {
     "name": "cv_gen",
