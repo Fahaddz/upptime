@@ -1,7 +1,7 @@
 url: $PROXMOX
-status: up
-code: 200
-responseTime: 426
-lastUpdated: 2026-10-22T01:05:56.764Z
+status: down
+code: 530
+responseTime: 42
+lastUpdated: 2026-10-22T10:55:25.327Z
 startTime: 2026-09-30T12:29:46.830Z
 generator: Upptime <https://github.com/upptime/upptime>
