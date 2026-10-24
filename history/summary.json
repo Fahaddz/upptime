@@ -5,19 +5,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "proxmox",
     "status": "up",
-    "uptime": "99.99%",
-    "uptimeDay": "99.66%",
-    "uptimeWeek": "99.95%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "99.99%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 648,
-    "timeDay": 410,
-    "timeWeek": 534,
+    "timeDay": 505,
+    "timeWeek": 513,
     "timeMonth": 648,
     "timeYear": 648,
-    "dailyMinutesDown": {
-      "2026-10-23": 5
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "PassManager",
@@ -30,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 599,
-    "timeDay": 694,
-    "timeWeek": 606,
-    "timeMonth": 599,
-    "timeYear": 599,
+    "time": 598,
+    "timeDay": 576,
+    "timeWeek": 581,
+    "timeMonth": 598,
+    "timeYear": 598,
     "dailyMinutesDown": {}
   },
   {
@@ -43,19 +41,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "glance",
     "status": "up",
-    "uptime": "99.99%",
-    "uptimeDay": "99.68%",
-    "uptimeWeek": "99.95%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "99.99%",
-    "time": 763,
-    "timeDay": 466,
-    "timeWeek": 456,
-    "timeMonth": 763,
-    "timeYear": 763,
-    "dailyMinutesDown": {
-      "2026-10-23": 5
-    }
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 760,
+    "timeDay": 489,
+    "timeWeek": 439,
+    "timeMonth": 760,
+    "timeYear": 760,
+    "dailyMinutesDown": {}
   },
   {
     "name": "cv_gen",
@@ -68,11 +64,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1293,
-    "timeDay": 260,
-    "timeWeek": 303,
-    "timeMonth": 1293,
-    "timeYear": 1293,
+    "time": 1254,
+    "timeDay": 207,
+    "timeWeek": 304,
+    "timeMonth": 1254,
+    "timeYear": 1254,
     "dailyMinutesDown": {}
   },
   {
@@ -86,11 +82,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 424,
-    "timeDay": 180,
-    "timeWeek": 282,
-    "timeMonth": 424,
-    "timeYear": 424,
+    "time": 420,
+    "timeDay": 283,
+    "timeWeek": 276,
+    "timeMonth": 420,
+    "timeYear": 420,
     "dailyMinutesDown": {}
   }
 ]
