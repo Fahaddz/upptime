@@ -1,7 +1,7 @@
 url: $GLANCE
-status: down
-code: 530
-responseTime: 62
-lastUpdated: 2026-11-01T01:41:38.412Z
+status: up
+code: 200
+responseTime: 651
+lastUpdated: 2026-11-01T18:50:24.826Z
 startTime: 2026-09-30T11:18:02.578Z
 generator: Upptime <https://github.com/upptime/upptime>
